@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>qiye企业门户网站</title>
+    <link href="http://7xjy71.com1.z0.glb.clouddn.com/bootstrap.min.css" rel="stylesheet">
+    <script src="http://7xjy71.com1.z0.glb.clouddn.com/ie8-responsive-file-warning.js"></script>
+    <script src="http://7xjy71.com1.z0.glb.clouddn.com/ie-emulation-modes-warning.js"></script>
+    <script src="http://7xjy71.com1.z0.glb.clouddn.com/html5shiv.min.js"></script>
+    <script src="http://7xjy71.com1.z0.glb.clouddn.com/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://7xjy71.com1.z0.glb.clouddn.com/qiye.css">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="sr-only">导航切换</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- <a href="#" class="navbar-brand">LOGO</a> -->
+        </div>
+        <div class="navbar-collapse collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">网站首页</a></li>
+                <li><a href="#">作品欣赏</a></li>
+                <li><a href="#">技术前沿</a></li>
+                <li><a href="#">新闻动态</a></li>
+                <li><a href="#">博客论坛</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">会员中心</a></li>
+            </ul>
+            <div class="pull-right">
+                <button type="button" class="btn btn-nonebg navbar-btn" data-toggle="modal" data-target="#signup">登陆</button>
+                <button type="button" class="btn btn-nonebg navbar-btn" data-toggle="modal" data-target="#signin">注册</button>
+            </div>
+            <form class="navbar-form navbar-right">
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="搜素...">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-info">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</nav>
+<div class="carousel slide" id="mycarousel">
+<ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+</ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-banner-3.jpg" class="img-responsive" alt="first slide" />
+        </div>
+        <div class="item">
+            <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-banner-2.jpg" class="img-responsive" alt="second slide" />
+        </div>
+         <div class="item">
+            <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-banner-1.jpg" class="img-responsive" alt="third slide" />
+        </div>
+    </div>
+    <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+        <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-prev.png" alt="previous"/>
+    </a>
+    <a href="#mycarousel" class="carousel-control right" data-slide="next">
+        <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-next.png" alt="next"/>
+    </a>
+</div>
+
+<div class="container">
+    <div class="row jianjie">
+        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+            <div class="bgcolor">
+               <a href="#">
+                   <p class="text-center"><span class="glyphicon glyphicon-cloud"></span></p>
+                   <p class="text-center"><strong>招商加盟</strong></p>
+                   <p class="text-center">强大的品牌知名度、市场营销后盾支持，共同谱写商业史诗。</p>
+               </a>
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+            <div class="bgcolor">
+               <a href="#">
+                   <p class="text-center"><span class="glyphicon glyphicon-eye-open"></span></p>
+                   <p class="text-center"><strong>眼见为实</strong></p>
+                   <p class="text-center">强大的品牌知名度、市场营销后盾支持，共同谱写商业史诗。</p>
+               </a>
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+            <div class="bgcolor">
+               <a href="#">
+                   <p class="text-center"><span class="glyphicon glyphicon-globe"></span></p>
+                   <p class="text-center"><strong>跨越地域</strong></p>
+                   <p class="text-center">强大的品牌知名度、市场营销后盾支持，共同谱写商业史诗。</p>
+               </a>
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+            <div class="bgcolor">
+               <a href="#">
+                   <p class="text-center"><span class="glyphicon glyphicon-phone-alt"></span></p>
+                   <p class="text-center"><strong>联系我们</strong></p>
+                   <p class="text-center">强大的品牌知名度、市场营销后盾支持，共同谱写商业史诗。</p>
+               </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="products">
+                <h3 class="page-header"> <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-icon.jpg">推荐产品</h3>
+                <div class="product">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12  col-sm-12">
+                           <div class="product-pic">
+                               <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-pin.jpg" class="img-responsive" alt="..." /></a>
+                               <div class="box-intro">
+                                   <h3 class="text-center">产品介绍</h3>
+                                   <p class="text-center">这款产品具有很好的使用行，只有价廉，你值得拥有</p>
+                                  <p class="text-center"><a href="#">查看详情</a></p>
+                               </div>
+                           </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+</div>
+<div class="container">
+    <div class="products">
+            <h3 class="page-header"> <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-icon.jpg">合作伙伴</h3>
+            <div class="company">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-company.jpg" class="img-responsive"  alt="..."/></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-company.jpg" class="img-responsive"  alt="..."/></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-company.jpg" class="img-responsive"  alt="..."/></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-company.jpg" class="img-responsive"  alt="..."/></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-company.jpg" class="img-responsive"  alt="..."/></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="thumbnail"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-company.jpg" class="img-responsive"  alt="..."/></a>
+                    </div>
+                </div>
+           </div>
+     </div>
+</div>
+<div class="container">
+    <div class="row products">
+        <div class="col-md-12">
+            <h3 class="page-header"> <img src="http://7xjy6w.com1.z0.glb.clouddn.com/qiye-icon.jpg">友情链接</h3>
+            <div class="links">
+             <p><a href="#">BootStrap前端框架</a>
+                 <a href="#">H-ui前端框架</a>
+                 <a href="#">jQuery MiniUI</a>
+                 <a href="#">node.js</a>
+                 <a href="#">QUI网页界面集成框架</a>
+                 <a href="#">Bootstrap响应式前端框架</a>
+                 <a href="#">BootStrap前端框架</a>
+                 <a href="#">H-ui前端框架</a>
+                 <a href="#">jQuery MiniUI</a>
+                 <a href="#">node.js</a>
+                 <a href="#">QUI网页界面集成框架</a>
+                 <a href="#">Bootstrap响应式前端框架</a>
+                 <a href="#">BootStrap前端框架</a>
+                 <a href="#">H-ui前端框架</a>
+                 <a href="#">jQuery MiniUI</a>
+                 <a href="#">node.js</a>
+                 <a href="#">QUI网页界面集成框架</a>
+                 <a href="#">Bootstrap响应式前端框架</a>
+             </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-xs-12 col-sm-12">
+                <div class="contect-us">
+                    <h5><strong>关于我们</strong></h5>
+                    <ul>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">发展历史</a></li>
+                        <li><a href="#">公司荣誉</a></li>
+                        <li><a href="#">产品更新</a></li>
+                        <li><a href="#">领导核心</a></li>
+                        <li><a href="#">公司盈利</a></li>
+                        <li><a href="#">公司股市</a></li>
+                    </ul>
+                </div>
+                <div class="contect-us">
+                    <h5><strong>新闻动态</strong></h5>
+                    <ul>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                    </ul>
+                </div>
+                <div class="contect-us">
+                    <h5><strong>产品系列</strong></h5>
+                    <ul>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                    </ul>
+                </div>
+                <div class="contect-us">
+                <h5><strong>关于我们</strong></h5>
+                <ul>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">公司介绍</a></li>
+                </ul>
+            </div>
+                <div class="contect-us">
+                    <h5><strong>关于我们</strong></h5>
+                    <ul>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                    </ul>
+                </div>
+                <div class="contect-us">
+                    <h5><strong>关于我们</strong></h5>
+                    <ul>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-md-offset-1 col-xs-8 col-md-offset-2">
+                <div class="rig">
+                    <h5 class="page-header"><strong>分享及关注</strong></h5>
+                    <p>
+                        <a href="#"><span class="glyphicon glyphicon-qrcode"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-picture"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-folder-open"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-globe"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-plus"></span></a>
+                        <a href="#"><span class="glyphicon glyphicon-phone-alt"></span></a>
+                    </p>
+                   <div class="code clearfix">
+                                  <a href="#"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/wap.png" class="img-responsive" alt="code"> <span class="text-center">微信关注我们</span>
+                                  </a>
+                               <a href="#"><img src="http://7xjy6w.com1.z0.glb.clouddn.com/wap.png" class="img-responsive" alt="code"><span class="text-center">微博关注我们</span></a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bottom">
+    <div class="container">
+        <p class="text-center">地址：广东省深圳市南山区科苑路 电话：0755-6133 7959 传真：0755-6133 7956 邮箱：117003@qq.com<br>
+            版权所有 Copyright © All Rights Reserved 粤ICP备876290号</p>
+    </div>
+</div>
+
+<div class="modal fade" id="signup" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">登陆界面</h4>
+            </div>
+             <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">用户名：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入用户名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">密码：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-5 col-md-offset-2">
+                          <input type="checkbox">记住密码
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">记住密码</a>
+                        </div>
+                    </div>
+                   <div class="col-md-offset-2">
+                       <button type="submit" class="btn btn-info">登&nbsp;陆</button>
+                   </div>
+                </form>
+             </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="signin" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">会员注册</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">昵称：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入用户名">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">密码：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">确认密码：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入确认密码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">邮箱：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入邮箱">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">QQ：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" placeholder="请输入QQ号码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2">验证码：</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="请输入验证码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10 col-md-offset-2">
+                            <input type="checkbox">已阅读，同意<a href="#">《XX注册协议》</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-offset-2">
+                        <button type="submit" class="btn btn-info">提交</button>
+                        <button type="reset" class="btn btn-info">重置</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="http://7xjy71.com1.z0.glb.clouddn.com/jquery-2.1.3.min.js"></script>
+<script src="http://7xjy71.com1.z0.glb.clouddn.com/bootstrap.min.js"></script>
+<script src="http://7xjy71.com1.z0.glb.clouddn.com/holder.js"></script>
+<script src="http://7xjy71.com1.z0.glb.clouddn.com/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+//    $(function(){
+//
+//    });
+    $(document).ready(function(){
+        $('.product-pic').hover(function(){
+            $(this).children('.box-intro').stop(true,true).delay(100).animate({'top':0,opacity:0.8},300);
+        },function(){
+            $(this).children('.box-intro').stop(true,true).animate({'top':0,opacity:0},200);
+        });
+        $('.product-pic').hover(function(){
+            $(this).children('.box-intro').show().animate({'top':0,opacity:0.8},300);
+        },function(){
+            $(this).children('.box-intro').hide().animate({'top':0,opacity:0},200);
+        });
+    });
+</script>
+
+</body>
+</html>
